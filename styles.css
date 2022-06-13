@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Header Properties - Start */
+.navbar-container{
+    background-color: black;
+    display: flex;
+    height: 7vw;
+    min-height: 110px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index:99;
+    text-align: center;
+}
+.navbar-content-1{
+    display: flex;
+    margin-left: 5vw;
+    margin-right: auto;
+    transition: all 300ms;
+}
+.navbar-content-2{
+    display: flex;
+    margin-left: auto;
+    margin-right: 10vw;
+    transition: all 300ms;
+}
+.navbar-content-2 a{
+    color: white;
+    margin-top: 3vh;
+    font-weight: lighter;
+    font-size: small;
+}
+#navbar-logo{
+    width: 17vw;
+    min-width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 0.5vw;
+}
+/* Responsive Media */
+@media only screen and (max-width: 700px) {
+    .navbar-container{
+        justify-content: center;
+    }
+    .navbar-content-1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-content-2{
+        display: none;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #navbar-logo{
+        width: 120px;
+        height: 90px;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+}
+/* Header Properties - End */
+
+/* Section 1 - Start */
+.section-1 {
+    background-color: lightgray;
+}
+#lettering {
+    width: 100%;
+}
