@@ -40,9 +40,10 @@ body{
     margin-top: 4px;
 }
 .buy-box{
-    height: 7vh;
+    height: 50px;
     min-height: 28px;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 3vw;
     padding-right: 3vw;
     transition: all 150ms;
@@ -103,23 +104,49 @@ body{
     font-size: 3em;
 }
 .coming-soon{
-    padding-top: 5vh;
     padding-left: 12vw;
     padding-right: 15vw;
 }
 #coming{
+    margin-top: 5vh;
     max-width: 105%;
+}
+.gallery-container{
+    transition: all 300ms;
+}
+.photo-box {
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.photo-box img{
+    width: 20%;
+    max-height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
 }
 @media only screen and (max-width: 650px) {
     .section-2-title {
         font-size: 2em;
     }
     #coming{
+        margin-top: 2vh;
         max-width: 95%;
     }
     .coming-soon{
         padding-top: 3vh;
         padding-left: 5vw;
         padding-right: 1vw;
+    }
+    .photo-box img{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
