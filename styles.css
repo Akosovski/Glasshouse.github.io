@@ -123,12 +123,24 @@ body{
     padding-top: 15px;
     padding-bottom: 25px;
 }
-.photo-box img{
-    width: 20%;
+.pic-box {
+    width: 335px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.pic-box h3{
+    color: white;
+    font-size: 1.5rem;
+}
+.pic-box img{
+    width: 85%;
     max-height: auto;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 15px;
+    margin-bottom: -20px;
 }
 @media only screen and (max-width: 650px) {
     .section-2-title {
@@ -140,13 +152,15 @@ body{
     }
     .coming-soon{
         padding-top: 3vh;
-        padding-left: 5vw;
-        padding-right: 1vw;
+        padding-left: 4vw;
+        padding-right: 2vw;
     }
-    .photo-box img{
-        width: 40%;
-        margin-top: 30px;
-        margin-left: 15px;
-        margin-right: 15px;
+    .pic-box img{
+        width: 90%;
+        max-height: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 15px;
+        margin-bottom: -15px;
     }
 }
