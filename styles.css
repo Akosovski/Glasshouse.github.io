@@ -111,9 +111,6 @@ body{
     margin-top: 5vh;
     max-width: 105%;
 }
-.gallery-container{
-    transition: all 300ms;
-}
 .photo-box {
     justify-content: center;
     background-color: black;
@@ -122,10 +119,11 @@ body{
     flex-wrap: wrap;
     padding-top: 15px;
     padding-bottom: 25px;
+    transition: all 300ms;
 }
 .pic-box {
     width: 335px;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     display: inline-block;
     text-align: center;
     justify-content: center;
@@ -137,10 +135,27 @@ body{
 .pic-box img{
     width: 85%;
     max-height: auto;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 15px;
     margin-bottom: -20px;
+}
+#badge{
+    filter: brightness(0.75);
+    margin-top: -40px;
+    width: 97vh;
+    height: auto;
+    margin-left: -10px;
+    margin-right: -10px;
+    transition: all 300ms;
+}
+#badge:hover{
+    filter: brightness(1);
+}
+@media only screen and (max-width: 1370px) {
+    #badge{
+        display: none;
+     }
 }
 @media only screen and (max-width: 650px) {
     .section-2-title {
