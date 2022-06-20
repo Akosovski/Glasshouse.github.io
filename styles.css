@@ -91,6 +91,7 @@ body{
 @media only screen and (max-width: 650px) {
     .section-1 {
         margin-top: -3vh;
+        margin-bottom: 20px;
     }
 }
 
@@ -99,6 +100,7 @@ body{
     height: 5px;
     background-color: #982a2a;
     border: none;
+    margin: 0 auto 0 auto;
 }
 
 /* Section 2 */
@@ -188,7 +190,7 @@ body{
         font-size: 2em;
     }
     #coming{
-        margin-top: 15px;
+        margin-top: -5px;
         max-width: 95%;
     }
     .coming-soon{
