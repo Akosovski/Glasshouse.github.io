@@ -311,11 +311,11 @@ body{
     font-size: 21px;
     font-weight: 500;
 }
-.ksg-carousel{
+#ksg-carousel{
     display: flex;
     justify-content: center;
 }
-.ksg-carousel img{
+#ksg-carousel img{
     width: 80%;
     margin-top: 15px;
     margin-bottom: 30px;
@@ -343,10 +343,10 @@ body{
         font-size: 17px;
         font-weight: 400;
     }
-    .ksg-carousel{
+    #ksg-carousel{
         display: flex;
     }
-    .ksg-carousel img{
+    #ksg-carousel img{
         width: 90%;
         height: auto;
         margin-left: auto;
