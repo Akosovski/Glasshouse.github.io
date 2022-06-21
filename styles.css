@@ -41,7 +41,7 @@ body{
     margin-bottom: 10px;
     padding-left: 3vw;
     padding-right: 3vw;
-    transition: all 150ms;
+    transition: all 220ms;
     border: 1px solid white;
     background-color: white;
 }
@@ -56,7 +56,7 @@ body{
     text-decoration: none;
 }
 .buy-box:hover{
-    background-color: lightgrey;
+    background-color: #bfbfbf;
     cursor: pointer;
 }
 
@@ -101,16 +101,11 @@ body{
     height: 5px;
     background-color: #982a2a;
     border: none;
-    margin: 0 auto 0 auto;
+    margin: auto;
 }
 .section-2{
     background-color: black;
     margin: 0;
-}
-.section-2-title {
-    color: white;
-    text-align: center;
-    font-size: 3em;
 }
 .coming-soon{
     padding-left: 21vw;
@@ -183,7 +178,7 @@ body{
         height: 4px;
         background-color: #982a2a;
         border: none;
-        margin-top: 40px;
+        margin-top: 25px;
         margin-bottom: 20px;
     }
     .section-2-title {
@@ -194,9 +189,10 @@ body{
         max-width: 95%;
     }
     .coming-soon{
-        padding-top: 3vh;
+        margin-top: 20px;
         padding-left: 4vw;
         padding-right: 2vw;
+        margin-bottom: -10px;
     }
     .pic-box img{
         width: 90%;
