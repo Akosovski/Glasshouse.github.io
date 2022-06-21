@@ -118,7 +118,7 @@ body{
     padding-right: 7vw;
 }
 #coming{
-    margin-top: 10px;
+    margin-top: 25px;
     max-width: 80%;
     margin-bottom: 30px;
 }
@@ -144,7 +144,8 @@ body{
 }
 .pic-box h3{
     color: white;
-    font-size: 1.5rem;
+    font-size: 20px;
+    font-weight: 500;
 }
 .pic-box img{
     filter: brightness(0.85);
@@ -153,7 +154,7 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
 }
 .pic-box img:hover{
     filter: brightness(1);
@@ -179,8 +180,8 @@ body{
 }
 @media only screen and (max-width: 650px) {
     .red-bar{
-        width: 35px;
-        height: 5px;
+        width: 30px;
+        height: 4px;
         background-color: #982a2a;
         border: none;
         margin-top: 40px;
@@ -190,7 +191,7 @@ body{
         font-size: 2em;
     }
     #coming{
-        margin-top: -5px;
+        margin-top: 0;
         max-width: 95%;
     }
     .coming-soon{
@@ -205,5 +206,86 @@ body{
         margin-right: 25px;
         margin-top: 15px;
         margin-bottom: -15px;
+    }
+}
+
+/* Section 3 */
+#prison{
+    margin-top: 25px;
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+.prison{
+    padding-left: 21vw;
+    padding-right: 7vw;
+}
+.prison-description{
+    margin: -25px 500px 0 500px;
+}
+.prison-description p{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+}
+#red-font{
+    color: #982a2a;
+}
+@media only screen and (max-width: 650px) {
+    .red-bar{
+        width: 30px;
+        height: 4px;
+        background-color: #982a2a;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    #prison{
+        margin-top: 0;
+        max-width: 95%;
+    }
+    .prison{
+        padding-top: 3vh;
+        padding-left: 4vw;
+        padding-right: 2vw;
+    }
+}
+
+/* Section 4 */
+#ksg{
+    margin-top: 25px;
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+.new-ksg{
+    padding-left: 21vw;
+    padding-right: 7vw;
+}
+.ksg-description{
+    margin: -25px 500px 0 500px;
+}
+.ksg-description p{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 650px) {
+    .red-bar{
+        width: 30px;
+        height: 4px;
+        background-color: #982a2a;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    #prison{
+        margin-top: 0;
+        max-width: 95%;
+    }
+    .prison{
+        padding-top: 3vh;
+        padding-left: 4vw;
+        padding-right: 2vw;
     }
 }
