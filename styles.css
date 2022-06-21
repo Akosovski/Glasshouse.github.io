@@ -521,15 +521,16 @@ body{
 #detainer-container img{
     margin-top: 15px;
     margin-bottom: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #detainer-small{
-    width: auto;
-    height: 470px;
+    width: 30%;
+    height: auto;
 }
 #detainer-wide{
-    width: auto;
-    height: 470px;
+    width: 50%;
+    height: auto;
 }
 @media only screen and (max-width: 850px) {
     .detainer-description{
@@ -565,6 +566,9 @@ body{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    #detainer-wide{
+        display: none;
     }
     #detainer{
         min-width: 95%;
@@ -620,15 +624,16 @@ body{
 #captive-container img{
     margin-top: 15px;
     margin-bottom: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #captive-small{
-    width: auto;
-    height: 470px;
+    width: 30%;
+    height: auto;
 }
 #captive-wide{
-    width: auto;
-    height: 470px;
+    width: 50%;
+    height: auto;
 }
 @media only screen and (max-width: 850px) {
     .captive-description{
@@ -664,6 +669,9 @@ body{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    #captive-wide{
+        display: none;
     }
     #captive{
         min-width: 95%;
