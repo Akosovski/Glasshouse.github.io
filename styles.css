@@ -24,7 +24,7 @@ body{
 .navbar-content-2{
     display: flex;
     margin-left: auto;
-    margin-right: 9vw;
+    margin-right: 10vw;
     transition: all 300ms;
     justify-content: center;
 }
@@ -39,18 +39,19 @@ body{
     min-height: 28px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 32px;
+    padding-right: 32px;
     transition: all 220ms;
     border: 1px solid white;
     background-color: white;
 }
 .buy-box h1{
+    width: 100px;
     margin-top: 10px;
     font-size: 20px;
-    font-weight: light;
-    letter-spacing: normal;
+    font-weight: 500;
     color: black;
+    letter-spacing: -1px;
 }
 .buy-box a{
     text-decoration: none;
@@ -81,39 +82,44 @@ body{
 /* SECTION 1 */
 .section-1 {
     background-color: black;
-    margin-top: -7vh;
-    margin-bottom: 40px;
     transition: all 300ms;
+    width: 100%;
+    margin: 0;
 }
 #wallpaper {
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 @media only screen and (max-width: 650px) {
     .section-1 {
-        margin-top: -3vh;
-        margin-bottom: 20px;
+        background-color: black;
     }
 }
 
+#spacing{
+    height: 20px;
+    background-color: black;
+}
+
 /* SECTION 2 */
+.section-2{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    font-weight: light;
+}
 .red-bar-2{
     width: 35px;
     height: 5px;
     background-color: #982a2a;
     border: none;
-    margin: auto;
-}
-.section-2{
-    background-color: black;
-    margin: 0;
-}
-.coming-soon{
-    padding-left: 21vw;
-    padding-right: 7vw;
+    margin: 0 auto 0 auto;
 }
 #coming{
     margin-top: 25px;
     max-width: 80%;
+    margin-left: 9vw;
     margin-bottom: 30px;
 }
 .gallery-container{
@@ -148,7 +154,7 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
-    margin-bottom: -15px;
+    margin-bottom: 10px;
 }
 .pic-box img:hover{
     filter: brightness(1);
@@ -173,26 +179,20 @@ body{
      }
 }
 @media only screen and (max-width: 650px) {
+    .section-2{
+        background-color: black;
+        width: 100%;
+    }
     .red-bar-2{
         width: 30px;
         height: 4px;
         background-color: #982a2a;
         border: none;
-        margin-top: 25px;
-        margin-bottom: 20px;
-    }
-    .section-2-title {
-        font-size: 2em;
     }
     #coming{
         margin-top: 0;
-        max-width: 95%;
-    }
-    .coming-soon{
-        margin-top: 20px;
-        padding-left: 4vw;
-        padding-right: 2vw;
-        margin-bottom: -10px;
+        max-width: 95vw;
+        margin-left: 0;
     }
     .pic-box img{
         width: 90%;
@@ -200,13 +200,14 @@ body{
         margin-left: 15px;
         margin-right: 25px;
         margin-top: 15px;
-        margin-bottom: -15px;
     }
 }
 
 /* SECTION 3 */
 .section-3{
     transition: all 300ms;
+    background-color: black;
+    width: auto;
 }
 .red-bar-3{
     width: 35px;
@@ -219,10 +220,7 @@ body{
     margin-top: 25px;
     max-width: 80%;
     margin-bottom: 30px;
-}
-.prison{
-    padding-left: 21vw;
-    padding-right: 7vw;
+    margin-left: 9vw;
 }
 .prison-description{
     margin: -25px 20vw 0 20vw;
@@ -239,19 +237,25 @@ body{
 .prison-carousel{
     display: flex;
     justify-content: center;
+    width: 80%;
+    margin: auto;
 }
 .prison-carousel img{
     width: 70%;
     margin-top: 15px;
     margin-bottom: 70px;
 }
+@media only screen and (max-width: 850px) {
+    .prison-description{
+        margin: -25px 10vw 0 10vw;
+    }
+}
 @media only screen and (max-width: 650px) {
     .red-bar-3{
         width: 30px;
         height: 4px;
-        background-color: #982a2a;
+        background: #d43a3a;
         border: none;
-        margin-top: 30px;
         margin-bottom: 15px;
     }
     .prison-description{
@@ -264,27 +268,26 @@ body{
         font-weight: 400;
     }
     .prison-carousel{
-        display: block;
-    }
-    .prison-carousel img{
-        width: 95%;
-        height: auto;
-        margin-left: 12px;
-        margin-right: 10px;
+        width: 90%;
     }
     #prison{
         margin-top: 0;
-        max-width: 95%;
+        margin-bottom: 50px;
+        max-width: 90vw;
+        margin-left: 0;
     }
     .prison{
-        padding-left: 4vw;
+        padding-left: 3vw;
         padding-right: 2vw;
+        margin-bottom: 5px;
     }
 }
 
 /* Section 4 */
 .section-4{
     transition: all 300ms;
+    background-color: black;
+    width: auto;
 }
 .red-bar-4{
     width: 35px;
@@ -297,13 +300,10 @@ body{
     margin-top: 25px;
     max-width: 80%;
     margin-bottom: 30px;
-}
-.new-ksg{
-    padding-left: 21vw;
-    padding-right: 7vw;
+    margin-left: 9vw;
 }
 .ksg-description{
-    margin: -25px 20vw 0 20vw;
+    margin: -25px 15vw 0 15vw;
 }
 .ksg-description p{
     text-align: center;
@@ -316,9 +316,14 @@ body{
     justify-content: center;
 }
 .ksg-carousel img{
-    width: 70%;
+    width: 80%;
     margin-top: 15px;
     margin-bottom: 30px;
+}
+@media only screen and (max-width: 850px) {
+    .ksg-description{
+        margin: -25px 10vw 0 10vw;
+    }
 }
 @media only screen and (max-width: 650px) {
     .red-bar-4{
@@ -339,21 +344,23 @@ body{
         font-weight: 400;
     }
     .ksg-carousel{
-        display: block;
+        display: flex;
     }
     .ksg-carousel img{
-        width: 95%;
+        width: 90%;
         height: auto;
-        margin-left: 12px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #ksg{
         margin-top: 0;
-        max-width: 95%;
+        max-width: 90vw;
+        margin-left: 0;
     }
     .new-ksg{
         padding-top: 3vh;
-        padding-left: 4vw;
+        padding-left: 2vw;
         padding-right: 2vw;
+        margin-bottom: 20px;
     }
 }
