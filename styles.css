@@ -150,7 +150,7 @@ body{
 .pic-box h3{
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
 }
 .pic-box img{
     filter: brightness(0.85);
@@ -244,7 +244,7 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
 }
 #red-font{
     color: #982a2a;
@@ -330,7 +330,7 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
 }
 #ksg-carousel{
     display: flex;
@@ -421,7 +421,7 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
 }
 #ks23-carousel{
     display: flex;
@@ -512,7 +512,7 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
 }
 #detainer-container{
     display: flex;
@@ -615,7 +615,7 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: lighter;
 }
 #captive-container{
     display: flex;
