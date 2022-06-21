@@ -78,7 +78,7 @@ body{
     }
 }
 
-/* Section 1 */
+/* SECTION 1 */
 .section-1 {
     background-color: black;
     margin-top: -7vh;
@@ -103,7 +103,7 @@ body{
     margin: 0 auto 0 auto;
 }
 
-/* Section 2 */
+/* SECTION 2 */
 .section-2{
     background-color: black;
     margin: 0;
@@ -185,7 +185,7 @@ body{
         background-color: #982a2a;
         border: none;
         margin-top: 40px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .section-2-title {
         font-size: 2em;
@@ -209,7 +209,7 @@ body{
     }
 }
 
-/* Section 3 */
+/* SECTION 3 */
 #prison{
     margin-top: 25px;
     max-width: 80%;
@@ -231,21 +231,32 @@ body{
 #red-font{
     color: #982a2a;
 }
+.prison-carousel{
+    display: flex;
+    justify-content: center;
+}
+.prison-carousel img{
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
 @media only screen and (max-width: 650px) {
     .red-bar{
         width: 30px;
         height: 4px;
         background-color: #982a2a;
         border: none;
-        margin-top: 10px;
+        margin-top: 40px;
         margin-bottom: 5px;
+    }
+    .prison-carousel{
+        display: inline-block;
     }
     #prison{
         margin-top: 0;
         max-width: 95%;
     }
     .prison{
-        padding-top: 3vh;
         padding-left: 4vw;
         padding-right: 2vw;
     }
@@ -270,20 +281,29 @@ body{
     font-size: 21px;
     font-weight: 500;
 }
+.ksg-carousel{
+    display: flex;
+    justify-content: center;
+}
+.ksg-carousel img{
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
 @media only screen and (max-width: 650px) {
     .red-bar{
         width: 30px;
         height: 4px;
         background-color: #982a2a;
         border: none;
-        margin-top: 10px;
+        margin-top: 40px;
         margin-bottom: 5px;
     }
-    #prison{
+    #ksg{
         margin-top: 0;
         max-width: 95%;
     }
-    .prison{
+    .new-ksg{
         padding-top: 3vh;
         padding-left: 4vw;
         padding-right: 2vw;
