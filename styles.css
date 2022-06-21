@@ -39,8 +39,8 @@ body{
     min-height: 28px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
     transition: all 220ms;
     border: 1px solid white;
     background-color: white;
@@ -48,10 +48,11 @@ body{
 .buy-box h1{
     width: 100px;
     margin-top: 10px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: bold;
     color: black;
     letter-spacing: -1px;
+    font-family: "Oswald", sans-serif;
 }
 .buy-box a{
     text-decoration: none;
@@ -97,8 +98,8 @@ body{
     }
 }
 
-#spacing{
-    height: 20px;
+#spacer{
+    height: 40px;
     background-color: black;
 }
 
@@ -116,10 +117,14 @@ body{
     border: none;
     margin: 0 auto 0 auto;
 }
+.coming-soon{
+    display: flex;
+}
 #coming{
     margin-top: 25px;
-    max-width: 80%;
-    margin-left: 9vw;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
 .gallery-container{
@@ -190,9 +195,10 @@ body{
         border: none;
     }
     #coming{
-        margin-top: 0;
-        max-width: 95vw;
-        margin-left: 0;
+        margin-top: 15px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .pic-box img{
         width: 90%;
@@ -200,6 +206,11 @@ body{
         margin-left: 15px;
         margin-right: 25px;
         margin-top: 15px;
+    }
+    .pic-box h3{
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
     }
 }
 
@@ -216,11 +227,15 @@ body{
     border: none;
     margin: 0 auto 0 auto;
 }
+.prison{
+    display: flex;
+}
 #prison{
     margin-top: 25px;
-    max-width: 80%;
+    width: 70%;
     margin-bottom: 30px;
-    margin-left: 9vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .prison-description{
     margin: -25px 20vw 0 20vw;
@@ -228,7 +243,7 @@ body{
 .prison-description p{
     text-align: center;
     color: white;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
 }
 #red-font{
@@ -273,8 +288,9 @@ body{
     #prison{
         margin-top: 0;
         margin-bottom: 50px;
-        max-width: 90vw;
-        margin-left: 0;
+        min-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .prison{
         padding-left: 3vw;
@@ -283,7 +299,7 @@ body{
     }
 }
 
-/* Section 4 */
+/* SECTION 4 */
 .section-4{
     transition: all 300ms;
     background-color: black;
@@ -296,11 +312,16 @@ body{
     border: none;
     margin: 0 auto 0 auto;
 }
+.new-ksg{
+    display: flex;
+    justify-content: center;
+}
 #ksg{
     margin-top: 25px;
-    max-width: 80%;
+    max-width: 70%;
     margin-bottom: 30px;
-    margin-left: 9vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ksg-description{
     margin: -25px 15vw 0 15vw;
@@ -308,7 +329,7 @@ body{
 .ksg-description p{
     text-align: center;
     color: white;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
 }
 #ksg-carousel{
@@ -334,6 +355,10 @@ body{
         margin-top: -5px;
         margin-bottom: -5px;
     }
+    .new-ksg{
+        display: flex;
+        justify-content: center;
+    }
     .ksg-description{
         margin: -35px 50px 0 50px;
     }
@@ -348,16 +373,107 @@ body{
     }
     #ksg-carousel img{
         width: 90%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
     #ksg{
+        min-width: 95%;
         margin-top: 0;
-        max-width: 90vw;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .new-ksg{
+        padding-top: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 20px;
+    }
+}
+
+/* SECTION 5 */
+.section-5{
+    transition: all 300ms;
+    background-color: black;
+    width: auto;
+}
+.red-bar-5{
+    width: 35px;
+    height: 5px;
+    background-color: #982a2a;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+.new-ks23{
+    display: flex;
+    justify-content: center;
+}
+#ks23{
+    margin-top: 25px;
+    max-width: 70%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ks23-description{
+    margin: -25px 15vw 0 15vw;
+}
+.ks23-description p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+#ks23-carousel{
+    display: flex;
+    justify-content: center;
+}
+#ks23-carousel img{
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 850px) {
+    .ks23-description{
+        margin: -25px 10vw 0 10vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .red-bar-5{
+        width: 30px;
+        height: 4px;
+        background-color: #982a2a;
+        border: none;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .new-ks23{
+        display: flex;
+        justify-content: center;
+    }
+    .ks23-description{
+        margin: -35px 50px 0 50px;
+    }
+    .ks23-description p{
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    #ks23-carousel{
+        display: flex;
+    }
+    #ks23-carousel img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ks23{
+        min-width: 95%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .new-ks23{
         padding-top: 3vh;
         padding-left: 2vw;
         padding-right: 2vw;
