@@ -580,13 +580,15 @@ body{
     #detainer-container{
         display: flex;
     }
-    #detainer-container img{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #detainer-wide{
+    #detainer-wrapper-wide{
         display: none;
+    }
+    #detainer-wrapper-small{
+        width: 85%;
+    }
+    #detainer-small{
+        max-width: 100%;
+        height: 100%;
     }
     #detainer{
         min-width: 95%;
@@ -701,13 +703,15 @@ body{
     #captive-container{
         display: flex;
     }
-    #captive-container img{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #captive-wide{
+    #captive-wrapper-wide{
         display: none;
+    }
+    #captive-wrapper-small{
+        width: 85%;
+    }
+    #captive-small{
+        max-width: 100%;
+        height: 100%;
     }
     #captive{
         min-width: 95%;
