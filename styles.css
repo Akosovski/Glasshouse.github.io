@@ -807,18 +807,40 @@ body{
     font-size: 20px;
     font-weight: lighter;
 }
+.skin-overlay{
+    display: flex;
+}
+.skin-overlay h3{
+    z-index: 3;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+#skin-button{
+    transition: all 200ms;
+    opacity: 0;
+    position: absolute;
+    width: 455px;
+    height: 258px;
+    margin-top: -265px;
+    margin-left: 23px;
+}
+#overlay-logo{
+    position: absolute;
+    max-width: 70px;
+    max-height: auto;
+    margin-top: -85px;
+    margin-left: 30px;
+}
+#skin-button:hover {
+    opacity: 0.08;
+}
 .pic-box-skin img{
-    filter: brightness(0.5);
     width: 90%;
     max-height: auto;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
     margin-bottom: 10px;
-}
-.pic-box-skin img:hover{
-    filter: brightness(1);
-    cursor: pointer;
 }
 @media only screen and (max-width: 850px) {
     .woodland-description{
@@ -841,6 +863,9 @@ body{
         color: white;
         font-size: 17px;
         font-weight: 400;
+    }
+    #skin-button{
+        visibility: hidden;
     }
     .woodland-carousel{
         /* width: 90%; */
