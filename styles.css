@@ -794,6 +794,11 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.gallery-container-skin{
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+}
 .pic-box-skin {
     width: 27vw;
     margin: 5px 0 5px 0;
@@ -894,6 +899,87 @@ body{
         margin-right: auto;
     }
     .woodland{
+        padding-left: 3vw;
+        padding-right: 2vw;
+        margin-bottom: 5px;
+    }
+}
+
+/* SECTION 9 */
+.section-9{
+    transition: all 300ms;
+    background-color: black;
+    width: auto;
+}
+.red-bar-9{
+    width: 35px;
+    height: 5px;
+    background-color: #982a2a;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+.carbonfiber{
+    display: flex;
+}
+#carbonfiber{
+    margin-top: 25px;
+    width: 70%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carbonfiber-description{
+    margin: -25px 20vw 0 20vw;
+}
+.carbonfiber-description p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.carbonfiber-carousel{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.carbonfiber-carousel img{
+    width: 70%;
+}
+@media only screen and (max-width: 850px) {
+    .carbonfiber-description{
+        margin: -25px 10vw 0 10vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .red-bar-9{
+        width: 30px;
+        height: 4px;
+        background: #d43a3a;
+        border: none;
+        margin-bottom: 15px;
+    }
+    .carbonfiber-description{
+        margin: -35px 50px 0 50px;
+    }
+    .carbonfiber-description p{
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .carbonfiber-carousel{
+        width: 90%;
+    }
+    #carbonfiber{
+        margin-top: 0;
+        margin-bottom: 50px;
+        min-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carbonfiber{
         padding-left: 3vw;
         padding-right: 2vw;
         margin-bottom: 5px;
