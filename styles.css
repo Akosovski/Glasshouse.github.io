@@ -1232,7 +1232,7 @@ body{
     }
 }
 
-/* SECTION 5 */
+/* SECTION 12 */
 .section-12{
     transition: all 300ms;
     background-color: black;
@@ -1314,6 +1314,137 @@ body{
         margin-right: auto;
     }
     .new-melee{
+        padding-top: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 20px;
+    }
+}
+
+/* SECTION 13 */
+.section-13{
+    transition: all 300ms;
+    background-color: black;
+    width: auto;
+    padding-bottom: 20px;
+}
+.red-bar-13{
+    width: 35px;
+    height: 5px;
+    background-color: #982a2a;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+.new-patch{
+    display: flex;
+    justify-content: center;
+}
+#patch{
+    margin-top: 25px;
+    max-width: 70%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.patch-description{
+    margin: -25px 15vw 0 15vw;
+}
+.patch-description p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.container-read-more{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.read-more{
+    width: 180px;
+    height: 70px;
+    min-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: all 220ms;
+    border: 1px solid white;
+    background-color: white;
+}
+.read-more h1{
+    width: 160px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-left: 35px;
+    color: black;
+    letter-spacing: -1px;
+    font-family: "Oswald", sans-serif;
+}
+.read-more a{
+    text-decoration: none;
+}
+.read-more:hover{
+    background-color: #bfbfbf;
+    cursor: pointer;
+}
+@media only screen and (max-width: 850px) {
+    .patch-description{
+        margin: -25px 10vw 0 10vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .read-more{
+        width: 130px;
+        height: 50px;
+        min-height: 28px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        transition: all 220ms;
+        border: 1px solid white;
+        background-color: white;
+    }
+    .read-more h1{
+        width: 110px;
+        font-size: 23px;
+        font-weight: bold;
+        margin-top: 14px;
+        margin-left: 23px;
+        color: black;
+        letter-spacing: -1px;
+        font-family: "Oswald", sans-serif;
+    }
+    .red-bar-13{
+        width: 30px;
+        height: 4px;
+        background-color: #982a2a;
+        border: none;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .new-patch{
+        display: flex;
+        justify-content: center;
+    }
+    .patch-description{
+        margin: -35px 50px 0 50px;
+    }
+    .patch-description p{
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    #patch{
+        min-width: 95%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .read-more h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .new-patch{
         padding-top: 3vh;
         padding-left: 2vw;
         padding-right: 2vw;
