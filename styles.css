@@ -868,7 +868,9 @@ body{
         visibility: hidden;
     }
     .woodland-carousel{
-        /* width: 90%; */
+        width: 90%;
+    }
+    .gallery-container-skin{
         display: none;
     }
     #woodland{
