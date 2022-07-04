@@ -3,3 +3,5 @@
 
 All kind of materials integrated in this web clone belongs to their respective owners.
 Implemented using HTML/CSS with Bootstrap, JQuery and TwentyTwenty Overlay.
+
+Project Finished - 5th of July 2022
