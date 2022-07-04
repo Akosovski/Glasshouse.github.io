@@ -1108,3 +1108,215 @@ body{
         margin-bottom: 20px;
     }
 }
+
+/* SECTION 11 */
+.section-11{
+    transition: all 300ms;
+    background-color: black;
+    width: auto;
+}
+.red-bar-11{
+    width: 35px;
+    height: 5px;
+    background-color: #982a2a;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+.new-brute{
+    display: flex;
+    justify-content: center;
+}
+#brute{
+    margin-top: 25px;
+    max-width: 70%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brute-description{
+    margin: -25px 15vw 0 15vw;
+}
+.brute-description p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#brute-container{
+    display: flex;
+    justify-content: center;
+}
+.image-wrapper-brute{
+    display: inline-block;
+    overflow: hidden;
+    justify-content: center;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#brute-wrapper-small{
+    width: 30%;
+    height: auto;
+}
+#brute-wrapper-wide{
+    width: 50%;
+    height: auto;
+}
+#brute-small{
+    transition: all 300ms;
+    max-width: 100%;
+    height: 100%;
+}
+#brute-wide{
+    transition: all 300ms;
+    max-width: 100%;
+    height: 100%;
+}
+.image-wrapper-brute img:hover {
+    transform:scale(1.05);
+}
+@media only screen and (max-width: 850px) {
+    .brute-description{
+        margin: -25px 10vw 0 10vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .red-bar-11{
+        width: 30px;
+        height: 4px;
+        background-color: #982a2a;
+        border: none;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .new-brute{
+        display: flex;
+        justify-content: center;
+    }
+    .brute-description{
+        margin: -35px 50px 0 50px;
+    }
+    .brute-description p{
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    #brute-container{
+        display: flex;
+    }
+    #brute-wrapper-wide{
+        display: none;
+    }
+    #brute-wrapper-small{
+        width: 85%;
+    }
+    #brute-small{
+        max-width: 100%;
+        height: 100%;
+    }
+    #brute{
+        min-width: 95%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .new-brute{
+        padding-top: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 20px;
+    }
+}
+
+/* SECTION 5 */
+.section-12{
+    transition: all 300ms;
+    background-color: black;
+    width: auto;
+    padding-bottom: 20px;
+}
+.red-bar-12{
+    width: 35px;
+    height: 5px;
+    background-color: #982a2a;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+.new-melee{
+    display: flex;
+    justify-content: center;
+}
+#melee{
+    margin-top: 25px;
+    max-width: 70%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.melee-description{
+    margin: -25px 15vw 0 15vw;
+}
+.melee-description p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#melee-carousel{
+    display: flex;
+    justify-content: center;
+}
+#melee-carousel img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 850px) {
+    .melee-description{
+        margin: -25px 10vw 0 10vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .red-bar-12{
+        width: 30px;
+        height: 4px;
+        background-color: #982a2a;
+        border: none;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .new-melee{
+        display: flex;
+        justify-content: center;
+    }
+    .melee-description{
+        margin: -35px 50px 0 50px;
+    }
+    .melee-description p{
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .compare{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #melee{
+        min-width: 95%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .new-melee{
+        padding-top: 3vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 20px;
+    }
+}
