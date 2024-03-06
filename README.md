@@ -18,3 +18,4 @@ Production Link : https://akosovski.github.io/Glasshouse.github.io/
 ---
 
 Project Finished - 5th of July 2022
+Further updates to improve performance.
